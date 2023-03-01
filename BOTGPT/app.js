@@ -6,7 +6,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const ChatGPTClass = require('./chatgpt.class')
 
-const createBotGTP = async ({ provider, database }) => {
+const createBotGPT = async ({ provider, database }) => {
     return new ChatGPTClass( database, provider );
 };
 
