@@ -10,7 +10,7 @@ class ChatGPTClass extends CoreClass{
         this.optionsGPT = {...this.optionsGPT , ..._optionsgpt};
         this.init().then();
             
-    }
+    };
 
     init = async() => {
         const {ChatGPTAPI} = await import("chatgpt");
